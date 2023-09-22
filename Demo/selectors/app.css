@@ -1,6 +1,4 @@
-.head  {
-    font-size: 50px;
-}
+
 body {
     background-color: #EDEEC0;
 }
@@ -32,3 +30,58 @@ section span a {
     color: #7C9082;
 }
 
+h2 + button {
+    background-color: pink;
+    font-size: 60px;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer > a {
+    color: green;
+    text-decoration: none;
+}
+
+input[type = "password"] {
+    color: green;
+}
+
+section.post {
+    background-color: olive;
+}
+a[href*="google"] {
+    color: magenta;
+}
+
+a:hover {
+    background-color: aqua !important;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: red !important;
+    color: white;
+}
+
+button:active {
+    background-color: wheat;
+}
+
+.post:nth-of-type(2n) {
+    background-color: wheat;
+}
+
+h2::first-letter {
+    color: blue;
+    font-size: 30px;
+}
+p::first-line {
+    color: purple;
+}
+
+::selection {
+    background-color: yellow;
+}
