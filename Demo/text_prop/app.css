@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: red line-through 11px;
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-family: futura, papyrus;
+}
+
+p {
+    font-weight: 400;
+    line-height: 2;
+    font-family: Verdana;
+
+}
+a {
+    text-decoration: none;
+}

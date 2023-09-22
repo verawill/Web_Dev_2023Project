@@ -1,0 +1,30 @@
+body {
+    background-color: #EDEEC0;
+}
+
+h1,h2 {
+    color: darkslateblue;
+}
+
+#login {
+  background-color: #433E0E;  
+  color: white;
+}
+
+button {
+    background-color: #7C9082;  
+    color: white;
+  }
+
+span {
+    color: olive;
+}
+
+.highlight {
+    background-color: red;
+    color: black;
+}
+
+section span a {
+    color: #7C9082;
+}
